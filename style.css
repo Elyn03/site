@@ -12,6 +12,15 @@ h1 {
     text-align: center;
 }
 
+h1 > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 > a:hover {
+    color: #ecdfd4;
+}
+
 .prez {
     display: flex;
     align-items: center;
@@ -19,4 +28,16 @@ h1 {
     background-color: rgba(0, 0, 0, 0.201);
     backdrop-filter: blur(5px);
     padding: 10px 0px;
+}
+
+.star:hover {
+    color: rgb(255, 249, 183);
+}
+
+.anemo:hover {
+    color: #a6f3cc;
+}
+
+.inazuma:hover {
+    color: #d6a6eb;
 }
