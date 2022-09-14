@@ -8,11 +8,21 @@ body {
     margin: 0;
 }
 
+.paimon > img {
+    height: 10px;
+    width: auto;
+}
+
+.paimon {
+    position: absolute;
+}
+
 h1 {
     text-align: center;
 }
 
-h1 > a {
+h1 > a,
+.dish > a{
     color: #fff;
     text-decoration: none;
 }
@@ -39,5 +49,9 @@ h1 > a:hover {
 }
 
 .inazuma:hover {
-    color: #d6a6eb;
+    color: #8076a5;
+}
+
+.dish > a:hover {
+    color: #dcc19c;
 }
